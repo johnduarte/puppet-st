@@ -1,0 +1,19 @@
+{
+  "name": "johnduarte-st",
+  "version": "0.1.0",
+  "author": "johnduarte",
+  "summary": "Installs the st terminal emulator",
+  "license": "Apache-2.0",
+  "source": "https://github.com/johnduarte/puppet-st",
+  "project_page": "https://github.com/johnduarte/puppet-st",
+  "issues_url": "https://github.com/johnduarte/puppet-st/issues",
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "Debian",
+    }
+  ],
+  "dependencies": [
+    {"name":"puppetlabs-git","version_requirement":">= 0.0.1"}
+  ]
+}
+
