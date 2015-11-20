@@ -65,7 +65,6 @@ class st (
   $dev_packages = $st::params::dev_packages,
 ) inherits st::params {
 
-  class { 'git': package_manage => $git_manage, }
   contain 'git'
   ensure_packages($dev_packages)
 
