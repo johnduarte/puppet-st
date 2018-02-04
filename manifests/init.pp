@@ -73,7 +73,7 @@ class st (
     ensure   => 'present',
     path     => "${source_root}/st",
     provider => 'git',
-    source   => 'git://suckless.org/st',
+    source   => 'https://git.suckless.org/st',
     revision => $version,
     require  =>  Class['git'],
   }
