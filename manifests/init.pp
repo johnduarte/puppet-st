@@ -84,6 +84,10 @@ class st (
     before => Exec['install st'],
   }
 
+  # TODO
+  # apply solarized patches
+  # https://st.suckless.org/patches/solarized/
+
   exec { 'install st':
     cwd         => "${source_root}/st",
     command     => '/usr/bin/make clean install',
